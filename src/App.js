@@ -42,7 +42,7 @@ const Settings = (props) => (
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename="/pwa">
         <Switch>
           <Route path="/home" component={Home}/>
           <Route path="/about" component={About}/>
